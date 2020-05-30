@@ -51,7 +51,7 @@ export const UsersList: React.FC<{}> = (props: any) => {
     return () => {
       fetchUsers({});
     };
-  }, []);
+  });
 
   return (
     <div>
